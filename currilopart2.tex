@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,foot=]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent \textbf{#1} \hfill #2 \\
+  \noindent \textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent \textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+
+\end{minipage}
+
+\section*{Formação}
+\vspace{0.6em}
+\entry{Contabilidade}{\faCalendar \space 01/2009 --  06/2010 \textbf{}}{Técnico}{\faMapMarker \space Etec - Centro Paula Souza}
+
+\vspace{-0.6em}
+
+\entry{Desenvolvimento de Software}{\faCalendar \space 06/2017 -- 12/2018 \textbf{}}{Tecnologo}{\faMapMarker \space Etec - Centro Paula Souza}
+
+\vspace{-0.6em}
+
+\entry{Engenharia da computação}{\faCalendar \space 06/2018 -- 12/2023 \textbf{}}{Bacharel}{\faMapMarker \space Univesp}
+
+\section*{Habilidades}
+\vspace{0.6em}
+\begin{itemize}
+
+\item \textbf Automatização processos de deploy e CI/CD para pipelines de dados usando Jenkins e Docker.
+Construção de bookload para uso em modelos de previsão.
+Banco de dados, Consultas em bancos de dados SQL, migração de dados, modelagem de Dados, criação de DW e arquitetura de banco de dados.
+\item \textbf Análise de Dados, ETL, ferramenta de BI para análise, programação em Python para análise de dados, KPIs, dashobords, conhecimento em Big Data e em ferramentas ELT.
+Migrações de Linguagens para PySpark , Sistema de processamento distribuído (Spark ).
+\item \textbf Projetar e implantar pipelines de dados para o processamento e analise de grandes volumes de dados em tempo real usando Apache Kafka e Spark.
+\item \textbf Liderar tecnicamente uma migração para a nuvem movendo grandes bases de dados para Azure e implementando soluções de armazenamento escaláveis e de alto desempenho, refactorando variáveis de entrada e saída.
+\item \textbf Trabalho com equipes de Data Science para criar pipelines de dados que alimentaram modelos preditivos e análises de Big Data.
+
+\end{itemize}
+\end{itemize}
+
+\section*{Cursos}
+\vspace{0.6em}
+\entry{Formação Engenharia de Dados}{ \space \textbf{}}{Técnico}{\ \space}
+
+\vspace{-0.6em}
+
+\entry{Databricks Fundamentals}{ \space \textbf{}}{Técnico}{\ \space}
+
+\vspace{-0.5em}
+
+\entry{Azure Fundamentals}{ \space \textbf{}}{Técnico}{\ \space}}
+
+\vspace{-0.5em}
+
+\entry{AWS Fundamentals}{ \space \textbf{}}{Técnico}{\ \space}}
+
+\vspace{-0.5em}
+
+\entry{Google cloud Computing Fundamentals}{ \space \textbf{}}{Técnico}{\ \space}}
+
+\section*{Ferramentas}
+\vspace{0.6em}
+\begin{itemize}
+\item \textbf{Técninologias:} 
+Linux 
+Jenkins  
+DataBricks
+Cloud(Azure,Aws,GCP)
+Sql
+Vscode 
+Python Microsoft Power BI 
+Big Data (Hdfs, Map reduce, Spark, Pyspark,Hive, Impala,Hbase)
+Git 
+Docker 
+Trello 
+Jira
+\end{itemize}
+
+\end{document}

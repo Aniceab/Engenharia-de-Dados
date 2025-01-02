@@ -1,0 +1,289 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,foot=]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent \textbf{#1} \hfill #2 \\
+  \noindent \textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent \textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large Anice Alemida Alexandre}
+
+\vspace{0.4em}
+
+\noindent \faMapMarker ~ Taboão da Serra, Brasil ~ \faUser ~ 40 anos \\
+\faIdCard ~ Brasileira
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+{\color{blue}} {\faPhone \space +55 011 94856 4074} \quad
+{\color{blue}} \href{mailto:niceskiner@gmail.com}{\faEnvelope \space niceskiner@gmail.com}
+
+\vspace{0.2em}
+
+{\color{blue}} \href{https://github.com/Aniceab/}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/anice-almeida/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{0.5em}
+
+\section*{EXPERIÊNCIAS PROFISSIONAIS}
+\vspace{0.6em}
+\entry{F1rts Tecnologia/Santander}{\faCalendar \space 10/2022  -- Aual }{Engenheiro de Dados}{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item ETL (Extract, Transform, Load) e ELT 
+(Extract,Load,Transform)
+\item Big Data / Hadoop / Spark
+\item Cloud Computing (AWS, Azure, Google Cloud)
+\item Apache Kafka / Apache Airflow
+\item SQL / Python /NoSQL
+\item Arquitetura de Dados/Armazenamento de Dados/Processamento de Dados/Modelagem de Dados
+\item Data Lakes
+\item Docker/Kubernetes
+\end{itemize}
+
+\entry{BRQ/Santander}{\faCalendar \space   04/2022 -- 10/2022 \textbf}{Engenheiro de Dados Pleno}{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item ETL (Extract, Transform, Load) e ELT 
+(Extract,Load,Transform)
+\item Big Data / Hadoop / Spark
+\item Cloud Computing (AWS, Azure, Google Cloud)
+\item Apache Kafka / Apache Airflow
+\item SQL / Python /NoSQL
+\item Arquitetura de Dados/Armazenamento de Dados/Processamento de Dados/Modelagem de Dados
+\item Data Lakes
+\item Docker/Kubernetes.
+\end{itemize}
+
+\entry{iClinic}{\faCalendar \space 07/2021 -- 04/2022 \textbf}{Analista de Dados }{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Análise de Dados/Excel Avançado
+\item SQL/Python (Pandas, NumPy)/NoSQL/Big Data
+\item Business Intelligence (BI)/KPI (Indicadores de Performance)
+\item DAX (Data Analysis Expressions)
+\item Ferrameenta (BI)/Ferramentas ETL e ELT
+\item Modelagem de Dados/Cubo Olap
+\end{itemize}
+
+\entry{Vivo Telefônica}{\faCalendar \space /06/2020 --  07/2021  \textbf}{Analista de Dados }{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Análise de Dados/Excel Avançado
+\item SQL/Python (Pandas, NumPy)/NoSQL/Big Data
+\item Business Intelligence (BI)/KPI (Indicadores de Performance)
+\item DAX (Data Analysis Expressions)
+\item Ferrameenta (BI)/Ferramentas ETL e ELT
+\item Modelagem de Dados/Cubo Olap
+\end{itemize}
+
+\section*{Projetos}
+\vspace{0.6em}
+\project{Rendas | \normalfont{\textit{Santander}}}{\textbf{02/2024 -- 09/2024}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Implantação de Modelos de predição
+\item Construção de apis
+\item Construção de Books e Features
+\item Migração de processos onprem(Bronze, Silver)
+\item Mapeamento/entendimento/refatoração.
+\end{itemize}
+
+\project{Migração Piloto Cloud |\normalfont{\textit{Santander}}}{\textbf{02/2023 -- 01/2024}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Construção de apis
+\item Politicas de créditos 
+\item Migração de processos onprem(Bronze, Silver)
+\item Mapeamento/entendimento/refatoração.
+\end{itemize}
+
+\project{Migração Onpren | \normalfont{\textit{Santander}}}{\textbf{06/2022 -- 01/2024}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Interção com o MF
+\item Migração para HDFS/Tabelas Hive
+\item Mapeamento de processo MF
+\end{itemize}
+
+
+\end{document}\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,foot=]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+  \noindent \textbf{#1} \hfill #2 \\
+  \noindent \textit{#3} \hfill \textit{#4} \\
+  \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+  \noindent \textbf{#1} \hfill #2 \\
+  \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large Anice Alemida Alexandre}
+
+\vspace{0.4em}
+
+\noindent \faMapMarker ~ Taboão da Serra, Brasil ~ \faUser ~ 40 anos \\
+\faIdCard ~ Brasileira
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+{\color{blue}} {\faPhone \space +55 011 94856 4074} \quad
+{\color{blue}} \href{mailto:niceskiner@gmail.com}{\faEnvelope \space niceskiner@gmail.com}
+
+\vspace{0.2em}
+
+{\color{blue}} \href{https://github.com/Aniceab/}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/anice-almeida/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{0.5em}
+
+\section*{EXPERIÊNCIAS PROFISSIONAIS}
+\vspace{0.6em}
+\entry{F1rts Tecnologia/Santander}{\faCalendar \space 10/2022  -- Aual }{Engenheiro de Dados}{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item ETL (Extract, Transform, Load) e ELT 
+(Extract,Load,Transform)
+\item Big Data / Hadoop / Spark
+\item Cloud Computing (AWS, Azure, Google Cloud)
+\item Apache Kafka / Apache Airflow
+\item SQL / Python /NoSQL
+\item Arquitetura de Dados/Armazenamento de Dados/Processamento de Dados/Modelagem de Dados
+\item Data Lakes
+\item Docker/Kubernetes
+\end{itemize}
+
+\entry{BRQ/Santander}{\faCalendar \space   04/2022 -- 10/2022 \textbf}{Engenheiro de Dados Pleno}{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item ETL (Extract, Transform, Load) e ELT 
+(Extract,Load,Transform)
+\item Big Data / Hadoop / Spark
+\item Cloud Computing (AWS, Azure, Google Cloud)
+\item Apache Kafka / Apache Airflow
+\item SQL / Python /NoSQL
+\item Arquitetura de Dados/Armazenamento de Dados/Processamento de Dados/Modelagem de Dados
+\item Data Lakes
+\item Docker/Kubernetes.
+\end{itemize}
+
+\entry{iClinic}{\faCalendar \space 07/2021 -- 04/2022 \textbf}{Analista de Dados }{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Análise de Dados/Excel Avançado
+\item SQL/Python (Pandas, NumPy)/NoSQL/Big Data
+\item Business Intelligence (BI)/KPI (Indicadores de Performance)
+\item DAX (Data Analysis Expressions)
+\item Ferrameenta (BI)/Ferramentas ETL e ELT
+\item Modelagem de Dados/Cubo Olap
+\end{itemize}
+
+\entry{Vivo Telefônica}{\faCalendar \space /06/2020 --  07/2021  \textbf}{Analista de Dados }{\faMapMarker \space São Paulo}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Análise de Dados/Excel Avançado
+\item SQL/Python (Pandas, NumPy)/NoSQL/Big Data
+\item Business Intelligence (BI)/KPI (Indicadores de Performance)
+\item DAX (Data Analysis Expressions)
+\item Ferrameenta (BI)/Ferramentas ETL e ELT
+\item Modelagem de Dados/Cubo Olap
+\end{itemize}
+
+\section*{Projetos}
+\vspace{0.6em}
+\project{Rendas | \normalfont{\textit{Santander}}}{\textbf{02/2024 -- 09/2024}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Implantação de Modelos de predição
+\item Construção de apis
+\item Construção de Books e Features
+\item Migração de processos onprem(Bronze, Silver)
+\item Mapeamento/entendimento/refatoração.
+\end{itemize}
+
+\project{Migração Piloto Cloud |\normalfont{\textit{Santander}}}{\textbf{02/2023 -- 01/2024}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Construção de apis
+\item Politicas de créditos 
+\item Migração de processos onprem(Bronze, Silver)
+\item Mapeamento/entendimento/refatoração.
+\end{itemize}
+
+\project{Migração Onpren | \normalfont{\textit{Santander}}}{\textbf{06/2022 -- 01/2024}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+\item Interção com o MF
+\item Migração para HDFS/Tabelas Hive
+\item Mapeamento de processo MF
+\end{itemize}
+
+
+\end{document}
